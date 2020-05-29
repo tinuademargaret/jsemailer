@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "mailgun-js": "^0.22.0",
     "rsmq-worker": "^0.5.2"
   }

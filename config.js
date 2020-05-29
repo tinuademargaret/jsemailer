@@ -6,7 +6,7 @@ if(!envFound){
 }
 //set NODE_ENV to devopment by default
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
-const client = require("redis").createClient(process.env.REDIS_URL);
+const client = require("redis").createClient(process.env.SESAME_URL);
 const RedisMQ = require("rsmq");
 module.exports = {
     EMAIL_ADDRESS: process.env.E_A,

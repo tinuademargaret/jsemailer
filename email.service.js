@@ -1,4 +1,4 @@
-const config = require('./config');
+const config = require('config');
 const mailgun = require("mailgun-js");
 const RSMQWorker = require( "rsmq-worker" );
 const worker2 = new RSMQWorker(config.QUEUENAME2, {interval:.1});
